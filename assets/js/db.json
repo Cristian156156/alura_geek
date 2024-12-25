@@ -1,0 +1,7 @@
+{
+    "productos": [
+      { "id": 1, "nombre": "Producto A", "precio": 100, "imagen": "https://via.placeholder.com/100" },
+      { "id": 2, "nombre": "Producto B", "precio": 200, "imagen": "https://via.placeholder.com/100" }
+    ]
+  }
+  

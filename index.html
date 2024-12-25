@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imagenes/logo.png" alt="Logo de AluraGeek" class="logo-header">
+    </header>
+    <main>
+        <section class="seccion-productos">
+            <h2>MIS PRODUCTOS:</h2>
+            <div id="lista-productos" class="lista-productos">
+                <!-- Productos agregados aparecerán aquí -->
+            </div>
+        </section>
+
+        <section class="seccion-agregar-producto">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form id="formulario-producto">
+                <input type="text" id="nombre-producto" placeholder="nombre..." required>
+                <input type="number" id="precio-producto" placeholder="precio..." required>
+                <input type="url" id="imagen-producto" placeholder="imagen..." required>
+                <div class="botones-formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="assets/imagenes/logo.png" alt="Logo del pie de página" class="logo-footer">
+        <p>DESARROLLADO POR CRISTIAN - ALURA LATAM - 2024</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
